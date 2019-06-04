@@ -22,6 +22,6 @@ In the example.py was created for testing the Mine.py and Miner.py. In this exam
 are created. Miner2 connects to Miner1 and Miner1 connects to Mine. Mine sends 10 random characters(data) to Miner1
 then Miner1 process the data make them all upper. Miner1 sends the processed data to Miner2 which mak them lower.
 
-Please see the presentation to see the description of the full idea.
+Please see the presentation DataPie.ppt to see the description of the full idea.
 
 
