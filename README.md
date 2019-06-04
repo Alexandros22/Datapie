@@ -15,10 +15,10 @@ To execute navigate from terminal/PowerShell to the folder that example.py is an
 
 We use gevent and greenlet to achieve multihreading and connection between our objects(threads). 
 For this project i was in a team with Georgios Tzourbakis.
-The idea was to build a program that allow us to take data from a source (Mine) and another program-instance 
+The idea was to build a program that allow us to take data from a source (Mine) and another node-instance 
 is able to process that data and give them to another.
 
-In the example.py was created for testing the Mine.py and Miner.py. In this example two Miner objects and one Mine 
+In the example.py was created for testing the Mine.py and Miner.py. In this example two Miner nodes and one Mine 
 are created. Miner2 connects to Miner1 and Miner1 connects to Mine. Mine sends 10 random characters(data) to Miner1
 then Miner1 process the data make them all upper. Miner1 sends the processed data to Miner2 which mak them lower.
 
